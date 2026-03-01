@@ -1,0 +1,49 @@
+# Dependencias
+node_modules/
+npm-debug.log
+npm-error.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# IDE y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+*.tern-port
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# Archivos del sistema
+Thumbs.db
+.env.prod
+.env.staging
+
+# Carpetas temporales
+dist/
+build/
+.cache/
+tmp/
+
+# Archivos de test locales
+coverage/
+.nyc_output/
+
+# Archivos de base de datos locales
+*.db
+*.sqlite
+.mongodb
